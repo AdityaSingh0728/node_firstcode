@@ -12,5 +12,5 @@ server.on('connected',()=>{
     console.log("server connected");
     
 })
-
+//thanks
 module.exports = server;
