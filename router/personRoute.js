@@ -31,7 +31,7 @@ console.log(err);
 router.get('/',async (req,res)=>{
    const data = await person.find();
    console.log("data fetched")
-   res.json({success:'DATA FETCHED'});
+   res.json(data);
 })
 
 router.put('/:id',async(req,res)=>{
